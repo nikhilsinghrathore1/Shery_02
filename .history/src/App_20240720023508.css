@@ -1,0 +1,43 @@
+@font-face {
+  font-family: font1;
+  src: url("../public/6624dc4c3f39ffabcd0dc162_Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: font2;
+  src: url("../public/CircularXXWeb-Book\ \(1\).ttf");
+}
+@font-face {
+  font-family: font3;
+  src: url("../public/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.ttf");
+}
+@font-face {
+  font-family: font4;
+  src: url("../public/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.ttf");
+}
+@font-face {
+  font-family: font5;
+  src: url("../public/pxiEyp8kv8JHgFVrJJfecnFHGPc.ttf");
+}
+
+.f1{
+  font-family: font1;
+}
+.f2{
+  font-family: font2;
+}
+.f3{
+  font-family: font3;
+}
+.f4{
+  font-family: font4;
+}
+.f5{
+  font-family: font5;
+}
+
+.rot{
+  transform: rotateY(0deg);
+  transition: all;
+  transform-origin: left;
+  /* background-color: red; */
+}
