@@ -1,12 +1,32 @@
-import React from 'react'
+import { useGSAP } from '@gsap/react';
+import gsap ,{ScrollTrigger}from 'gsap/all';
+import React, { useRef } from 'react'
 import { GoArrowUp } from "react-icons/go";
 
 const Footer = () => {
+  const mainText = useRef(null)
+  const fullDiv = useRef(null)
+
+  useGSAP(()=>{
+    gsap.registerPlugin(ScrollTrigger)
+    gsap.from(mainText.current,{
+      scrollTrigger:{
+        trigger:fullDiv.current,
+        start:"-10px top",
+        end:"bottom bottom",
+        scrub:5,
+      },
+      // opacity:"0%",
+      duration:0.7,
+      letterSpacing:"15rem"
+    })
+  })
+
   return (
-    <div className='w-full h-[100vh]  '>
+    <div ref={fullDiv} className='w-full h-[100vh]  '>
 
                               <div className='h-[85%] w-full relative text-center pt-20 sm:pt-32 leading-none tracking-wide uppercase '>
-                                          <h1 className='text-[5.1rem] xl:text-[15.5rem] z-10  relative f1 xl:font xl:tracking-[53px] xl:leading-[10px]'>Horeca</h1>
+                                          <h1 ref={mainText} className='text-[5.1rem] xl:text-[15.5rem] z-10  relative origin-center f1 xl:font xl:tracking-[53px] xl:leading-[10px]'>airbnb</h1>
                                           <h2 className='tracking-[14px] text-[12px] mt-1 z-10 relative font-bold xl:font-semibold xl:pr-[270px] f1 xl:mt-[110px] xl:text-[1.65rem] xl:tracking-[38px] xl:f4'>airb <span className='normal-case -mx-10'>n</span> b</h2>
                                           <div className='absolute top-0 w-full h-full bg-black '>
                                                     <img className='w-full h-full object-cover '  src="https://cdn.prod.website-files.com/6613fb0aff6a7761bf9a817d/663e0bd810d15c2ecfd40722_bg-curt-3.png" alt="not showing" />
@@ -34,7 +54,7 @@ const Footer = () => {
                                                               <p className='w-[55%]'>Full responsibility from project to implementation.</p>
                                                         </div>
                                                         <div className='h-full flex justify-end f1 tracking-tight leading-[15px] font-semibold text-[11.3px] pl-12  w-[14%] '>
-                                                              <p className='w-[100%]'>Ukraine, Lviv, Zamarsynivska Street 53</p>
+                                                              <p className='w-[100%]'>Chandigarh, Lviv, kharar road Street 53</p>
                                                         </div>
 
                                                         <div className=' w-[38.5%] h-full'></div>

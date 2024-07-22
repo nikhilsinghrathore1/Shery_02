@@ -47,7 +47,7 @@ useEffect(() => {
   const arritems = document.querySelectorAll(".variableText")
 
 const maxDistance = 300;
-const maxWeight = 800;
+const maxWeight = 900;
 const minWeight = 100;
 
 let mouseX = 0;
