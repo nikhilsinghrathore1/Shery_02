@@ -2,7 +2,12 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className='w-full h-[100vh]   fixed text-white flex flex-col justify-between z-40 top-0'>
+
+    
+
+    <div className='w-full h-[100vh]   fixed text-white flex flex-col justify-between  z-40 top-0'>
+
+
         <div className=' flex items-center  justify-center xl:justify-between xl:px-8  pt-7 xl:pt-[14px]'>
 
                 <div className='text-[12.5px] w-[30%] hidden xl:block leading-[17px] f1'>
@@ -11,8 +16,8 @@ const Nav = () => {
                 </div>
 
                <div className='flex  flex-col items-center justify-center sm:leading-[22px] md:leading-[25px] xl:pt-4 xl:leading-[20px] leading-[18px]'>
-                              <h1 className='text-[24px] sm:text-[30px] md:text-[33px] xl:text-[28px] xl:font-light f1'>Velours</h1>
-                              <h2 className='text-[10px] sm:text-[14px] md:text-[15px] xl:text-[7.5px] f1 font-light tracking-widest '>HoReCa</h2>
+                              <h1 className='text-[24px] sm:text-[30px] md:text-[33px] xl:text-[28px] xl:font-light f1'>Azure</h1>
+                              <h2 className='text-[10px] sm:text-[14px] md:text-[15px] xl:text-[7.5px] f1 font-light tracking-widest '>airbnb</h2>
                </div>
 
                <div className='text-[11px] w-[30%] text-right hidden xl:block leading-[17px] f1'>

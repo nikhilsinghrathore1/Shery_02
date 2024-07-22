@@ -5,14 +5,14 @@ import ScannerComp from './ScannerComp';
 const XlThird = ({text,img}) => {
   return (
 
-               <div className=' hidden xl:flex w-full h-[90vh] px-7 relative '>
+               <div className=' hidden xl:flex w-full mt-40 h-[90vh] px-7 relative '>
                <div className='w-[24%] h-full text-[2rem] uppercase tracking-tighter leading-[2.1rem] f1'>
                          <p className='w-[82%] opacity-90'>{text}</p>
                </div>
    
                <div className='w-[65%] h-[100%] flex justify-start'>
                          {/*this is the first prev section   */}
-                       <div className='w-[18%] pb-[200px] h-full flex items-end'>
+                       <div className='w-[18%] pb-[90px] h-full flex items-end'>
                                    <div className='flex text-[13px] items-center uppercase gap-3  f4 font-semibold '>
                                          <p>prev.</p>
                                          <div className='relative ' >
@@ -27,8 +27,8 @@ const XlThird = ({text,img}) => {
                        </div>
                                    {/* this is the main image div */}
    
-                                   <div className='w-[40%] h-full mr-14'>
-                                           <div className='w-full h-[73%] rounded-lg overflow-hidden'>
+                                   <div className='w-[42%] h-full mr-14'>
+                                           <div className='w-full h-[85%] rounded-lg overflow-hidden'>
                                              <img className='w-full h-full object-coverd' src={img} alt="not showing" />
                                            </div>
                                    </div>
@@ -50,7 +50,7 @@ const XlThird = ({text,img}) => {
                        </div>
                </div>
    
-               <div className='absolute bottom-[25%] right-8'>
+               <div className='absolute bottom-[25%] right-0'>
                <ScannerComp/>
                </div>
    

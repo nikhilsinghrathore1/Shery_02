@@ -19,6 +19,10 @@
   src: url("/pxiEyp8kv8JHgFVrJJfecnFHGPc.ttf");
 }
 
+.box{
+  clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+}
+
 .f1{
   font-family: font1;
 }
@@ -35,3 +39,6 @@
   font-family: font5;
 }
 
+.rot{
+  transform: rotateY(-80deg);
+}
