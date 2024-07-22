@@ -260,7 +260,7 @@ const threeDText2 = useRef([])
     <div  className='w-full overflow-hidden relative'>
 
       
-<div ref={loading2} className='w-full text-black h-[100vh] fixed top-0 bg-black z-[2000]'>
+<div ref={loading2} className='w-full hidden text-black h-[100vh] fixed top-0 bg-black z-[2000]'>
         <div ref={loading1} className='w-full h-full bg-white absolute top-0 flex flex-col items-center p-10 justify-between'>
           <div className='f1 font-light tracking-tighter uppercase text-[12px]'>
               <p>since 2005</p>
@@ -327,7 +327,7 @@ const threeDText2 = useRef([])
                <div className='w-full  h-[120vh] sm:h-[99vh] xl:h-[105vh] px-4   pt-32 sm:pt-24 xl:pt-[230px] leading-[42px]'>
                               {/* this is the variable weight text */}
                               <div className='w-full xl:h-[30%] h-fit f1  text-[32px] xl:text-[60px] xl:font-light xl:leading-[70px] font-semibold text-black uppercase '>
-                                             <p className='xl:pl-10 xl:flex xl:flex-wrap xl:w-[92%]'><span className='pl-44  xl:pl-[400px]'>{"full".split("").map((e)=>(<span className='variableText'>{e}</span>))}</span>{" responsibility from project to implementation.".split("").map(el=>{if(el===" "){
+                                             <p className='xl:pl-10 flex flex-wrap xl:w-[92%]'><span className='pl-44  xl:pl-[400px]'>{"full".split("").map((e)=>(<span className='variableText'>{e}</span>))}</span>{" responsibility from project to implementation.".split("").map(el=>{if(el===" "){
                                               return <span>&nbsp;</span>
                                              }
                                              else{
@@ -550,7 +550,7 @@ const threeDText2 = useRef([])
 
             <ThirdSection/>
 
-            <div ref={DRef2} className='w-full xl:w-[100%]  pt-8 xl:mt-14 sm:pt-5 md:pt-0 flex h-[100vh] sm:h-[83vh] md:h-[77vh] xl:h-[105vh] xl:pl-4'>
+            <div ref={DRef2} className='w-full xl:w-[100%]  pt-8 xl:mt-14 sm:pt-5 md:pt-0 flex h-[100vh] sm:h-[8vh] md:h-[45vh] xl:h-[105vh] xl:pl-4'>
                <div className='w-[80%] xl:w-[73%]    uppercase leading-none f1 text-[34px] sm:text-[35.5px] md:text-[36.5px] xl:text-[4.5rem]  pl-3 opacity-90 tracking  h-full '>
 
                               {Dtext[1].map((e,i)=>(<div ref={(el)=>threeDText2.current[i] = el} className=' w-full origin-left'> <h1 key={i} className='mt-[14px] md:mt-[15px] xl:mt-[9px]'>{e}</h1></div>))}
@@ -564,6 +564,7 @@ const threeDText2 = useRef([])
 
 
            <MovingImage/>
+
            {/* this is the xl visible moving images */}
 
            <div ref={imgDiv} className='w-full h-[150vh] relative hidden xl:flex '>

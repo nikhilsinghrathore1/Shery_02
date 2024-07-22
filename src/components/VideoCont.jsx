@@ -2,7 +2,7 @@ import React from 'react'
 
 const VideoCont = () => {
   return (
-    <div className='w-[98%] h-[80%] sm:h-[73%] sm:w-full bg-black rounded-lg absolute z-[500] pt-[3px] px-[2px] '>
+    <div className='w-[100%] h-[50%] sm:h-[73%]  sm:w-full bg-black rounded-lg  z-[500] pt-[3px] px-[2px] '>
                <div className='w-full h-[87%]  overflow-hidden rounded-lg'>
                               <video autoPlay muted loop className='w-full h-full object-cover' src="https://s3.amazonaws.com/webflow-prod-assets/6613fb0aff6a7761bf9a817d/663bcfe77765a0f1702b036f_insta-3.mp4"></video>
                </div>

@@ -30,6 +30,7 @@ useEffect(() => {
       // markers:true,
     },
 
+
     onComplete:incNum
     
   })
@@ -39,8 +40,8 @@ useEffect(() => {
 
             
   return (
-    <div ref={incPage} className='w-full px-1  pt-28 xl:pt-32  items-center  flex h-[80vh] sm:h-[100vh] xl:h-[80vh] '>
-               <div className='w-[60%] xl:w-[59%]   flex  leading-none  justify-center xl:justify-end text-[21rem] xl:text-[29rem] font-light f1'>{num}</div>
+    <div ref={incPage} className='w-full px-1  pt-28 xl:pt-32  items-center  flex h-[80vh] sm:h-[90vh] xl:h-[80vh] '>
+               <div className='w-[60%] xl:w-[59%] sm:text-[10rem]  flex  leading-none  justify-center xl:justify-end text-[21rem] xl:text-[29rem] font-light f1'>{num}</div>
 
                <div className=' w-[40%] leading-[18px] xl:leading-[15px] f1 pt-28 flex   flex-col items-start justify-center '>
                               <p className='text-[16px] md:text-[17px] xl:text-[12px]' >Warranty service</p>

@@ -12,7 +12,7 @@ const Footer = () => {
     gsap.from(mainText.current,{
       scrollTrigger:{
         trigger:fullDiv.current,
-        start:"-10px top",
+        start:"-100px top",
         end:"bottom bottom",
         scrub:5,
       },
@@ -23,11 +23,11 @@ const Footer = () => {
   })
 
   return (
-    <div ref={fullDiv} className='w-full h-[100vh]  '>
+    <div ref={fullDiv} className='w-full h-[100vh] sm:h-[100vh] '>
 
                               <div className='h-[85%] w-full relative text-center pt-20 sm:pt-32 leading-none tracking-wide uppercase '>
-                                          <h1 ref={mainText} className='text-[5.1rem] xl:text-[15.5rem] z-10  relative origin-center f1 xl:font xl:tracking-[53px] xl:leading-[10px]'>airbnb</h1>
-                                          <h2 className='tracking-[14px] text-[12px] mt-1 z-10 relative font-bold xl:font-semibold xl:pr-[270px] f1 xl:mt-[110px] xl:text-[1.65rem] xl:tracking-[38px] xl:f4'>airb <span className='normal-case -mx-10'>n</span> b</h2>
+                                          <h1 ref={mainText} className='text-[5.1rem] xl:text-[15.5rem] sm:text-[5rem] z-10 sm:tracking-[5px] relative origin-center f1 xl:font xl:tracking-[53px] xl:leading-[10px]'>airbnb</h1>
+                                          <h2 className='tracking-[14px] text-[12px] mt-1 z-10 relative font-bold xl:font-semibold xl:pr-[270px] f1 xl:mt-[110px] xl:text-[1.65rem] xl:tracking-[38px] xl:f4'>hotels</h2>
                                           <div className='absolute top-0 w-full h-full bg-black '>
                                                     <img className='w-full h-full object-cover '  src="https://cdn.prod.website-files.com/6613fb0aff6a7761bf9a817d/663e0bd810d15c2ecfd40722_bg-curt-3.png" alt="not showing" />
                                           </div>

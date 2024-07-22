@@ -35,14 +35,14 @@ const Nav = () => {
               <img className='w-[100%] h-[100%] object-cover' src="https://cdn.prod.website-files.com/6613fb0aff6a7761bf9a817d/6624b9bbba2e8daa37ae2e54_download-img-02.webp" alt="not showing" />
             </div>
 
-            <div className='w-[57%] xl:w-[44%]  xl:text-[11.5px] h-full text-[13px] sm:text-[14px] md:text-[15px] text-white leading-[16px] f1 xl:tracking-tighter flex items-center justify-center'>
-              <p>Download our Brochour on services in the airbnb industry</p>
+            <div className='w-[60%] xl:w-[44%]  xl:text-[11.5px] h-full text-[12px] sm:text-[10px] md:text-[15px] text-white leading-[16px] f1 xl:tracking-tighter flex items-center justify-center'>
+              <p>Download our pdf on services in the airbnb industry</p>
             </div>
 
 
             <div className='w-[18%] xl:w-[30.5%] h-full bg-white flex items-center justify-center overflow-hidden rounded-md'>
               <img className='w-[80%] xl:hidden  h-[80%] object-cover' src="https://cdn.prod.website-files.com/6613fb0aff6a7761bf9a817d/6624bdfbd80898e1c3060de1_download-icon.webp" alt="not showing" />
-              <p className='uppercase text-black text-[10px]  f2'>Download PDF</p>
+              <p className='uppercase text-black hidden xl:block text-[10px]  f2'>Download PDF</p>
             </div>
           </div>
 
