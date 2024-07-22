@@ -36,7 +36,7 @@ const Nav = () => {
             </div>
 
             <div className='w-[57%] xl:w-[44%]  xl:text-[11.5px] h-full text-[13px] sm:text-[14px] md:text-[15px] text-white leading-[16px] f1 xl:tracking-tighter flex items-center justify-center'>
-              <p>Download our Brochour on services in the HoReCa industry</p>
+              <p>Download our Brochour on services in the airbnb industry</p>
             </div>
 
 
