@@ -327,7 +327,7 @@ const threeDText2 = useRef([])
                <div className='w-full  h-[120vh] sm:h-[99vh] xl:h-[105vh] px-4   pt-32 sm:pt-24 xl:pt-[230px] leading-[42px]'>
                               {/* this is the variable weight text */}
                               <div className='w-full xl:h-[30%] h-fit f1  text-[32px] xl:text-[60px] xl:font-light xl:leading-[70px] font-semibold text-black uppercase '>
-                                             <p className='xl:pl-10 xl:flex xl:flex-wrap xl:w-[92%]'><span className='pl-44  xl:pl-[370px]'>{"full".split("").map((e)=>(<span className='variableText'>{e}</span>))}</span>{" responsibility from project to implementation.".split("").map(el=>{if(el===" "){
+                                             <p className='xl:pl-10 xl:flex xl:flex-wrap xl:w-[92%]'><span className='pl-44  xl:pl-[400px]'>{"full".split("").map((e)=>(<span className='variableText'>{e}</span>))}</span>{" responsibility from project to implementation.".split("").map(el=>{if(el===" "){
                                               return <span>&nbsp;</span>
                                              }
                                              else{
